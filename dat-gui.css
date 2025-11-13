@@ -1,0 +1,24 @@
+.dg {
+    font-family: var(--font-primary)!important;
+    font-size: 13px!important;
+    color: white!important;
+    box-shadow: 0 1rem 2rem rgba(0,0,0,0.1)!important;
+}
+
+.dg li.title {
+    background-color: black!important;
+}
+
+.dg li:not(.folder) {
+    background-color: black!important;
+}
+
+.close-button {
+    display: flex!important;
+    align-items: center!important;
+    justify-content: center!important;
+    height: 2rem!important;
+    border-bottom-left-radius: 1rem!important;
+    border-bottom-right-radius: 1rem!important;
+    font-weight: 700!important;
+}

@@ -12,6 +12,17 @@ html {
     text-rendering: optimizeLegibility;
 }
 
+/** Selection **/
+::-moz-selection {
+    color: white;
+    background: var(--primary-color);
+}
+
+::selection {
+    color: white;
+    background: var(--primary-color);
+}
+
 /** Variables **/
 :root {
     /** Colors **/
